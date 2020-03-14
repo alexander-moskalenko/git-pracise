@@ -10,3 +10,8 @@ git status
 
 git add
 git commit -m "msg"
+
+git add . - add all files
+git add someDir/*.txt - add all files in folder someDir with ext txt
+git add someDir/ - add all files in folder someDir
+git add "*.txt" - add all fils in project with ext txt
