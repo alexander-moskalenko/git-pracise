@@ -77,3 +77,4 @@ git branch -d - удаление ветки
 git checkout some-branch-name
 
 git merge -some-branch-name
+
