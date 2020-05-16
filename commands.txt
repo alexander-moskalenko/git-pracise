@@ -73,8 +73,12 @@ git push origin master
 git clone
 
 git branch - команда для просмотра на какой ветки мы находимс
-git branch -d - удаление ветки
+git branch -d some-branch-name - удаление ветки
 git checkout some-branch-name
 
-git merge -some-branch-name
+git merge some-branch-name
+
+Fast-Forward merge
+
+Merge commit
 
