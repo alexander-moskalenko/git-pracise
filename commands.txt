@@ -58,3 +58,9 @@ git remote add origin
 git remote -v
 git push origin master
 
+git pull origin master
+
+SSH - secure shell, сетевой протокол, производить удаленное управление операционной системой, передает данные.
+
+ssh-keygen -t rsa -b 4096 -C "alexander.moskalenko@jetruby.com"
+
