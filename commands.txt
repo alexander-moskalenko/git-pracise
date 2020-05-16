@@ -1,17 +1,39 @@
 git
 git help
+git help status
 
-git config --global user.name ""
-git config --global user.email ""
+cls - очистка терминала
+
+git config --global user.name "Alexander Moskalenko"
+git config --global user.email "alexander.moskalenko@jetruby.com"
 git config --global color.ui true
 
 git init
 git status
 
+git touch test.txt
 git add
 git commit -m "msg"
 
 git add . - add all files
+git add *.txt
 git add someDir/*.txt - add all files in folder someDir with ext txt
 git add someDir/ - add all files in folder someDir
 git add "*.txt" - add all fils in project with ext txt
+
+git log - позволяет посмотреть всю историю коммитов
+
+git diff - показывает разницу между текущим неотслеживаемым (unstaged) состоянием репозитория и последним коммитом
+git diff --staged - показывает разницу между текущим отслеживаемым (index added) состоянием репозитория и последним коммитом
+git diff COMMIT_ID показывает разницу между текущим состоянием репозитория и указанным коммитом
+
+q - to quit git diff
+
+git reset - предназначена для отмены каких-либо изменений в проекте, откату проекта к какому-либо коммиту
+git reset ^HEAD - сдвиг коммита на один коммит назад
+git reset ^^HEAD - сдвиг коммита на два коммит назад
+git reset HEAD~2 - сдвиг коммита на два коммит назад
+
+git reset --soft - возвращает проект к указанному коммиту, при этом переводит все коммиты после указанного в отслеживаемую (staged) зону
+git reset --mixed - по умолчанию возвращает проект к указанному коммиту, при этом переводит все коммиты после указанного в неотслеживаемую (unstaged) зону
+git reset --hard - возвращает проект к указанному коммиту, при этом полностью удаляет все коммиты после указанного
