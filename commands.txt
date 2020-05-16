@@ -42,4 +42,11 @@ git checkout - используется для перемезения между
 git checkout master
 git checkout HEAD~2
 git checkout -- filename
+git checkout commit -- filename
 git checkout -- . - возвращает все файлы в репозитории к версии, которая была у них в последнем коммите HEAD. Работает только для неотслеживаемых (untracked or modified) измененний
+
+git reset git checkout
+
+git commit -a -m "msg" - не добавляет в отслеживаемую зона (и в коммит, соответственно) новые (untracked) файлы. Добавляет только можифицированные (modified) файлы.
+git commit --amend -m "msg" - дополняет последний коммит, добавляя в него "свежие" изменения. Также меняет сообщение последнего коммита, новый коммите не создается.
+
