@@ -71,3 +71,9 @@ git remote add origin
 git push origin master
 
 git clone
+
+git branch - команда для просмотра на какой ветки мы находимс
+git branch -d - удаление ветки
+git checkout some-branch-name
+
+git merge -some-branch-name
