@@ -52,3 +52,9 @@ git commit --amend -m "msg" - дополняет последний коммит
 
 git clean - удаление новых (untracked) файлов
 git clean -n - покажет какие файлы будут удалены
+
+git remote
+git remote add origin 
+git remote -v
+git push origin master
+
