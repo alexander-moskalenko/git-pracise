@@ -78,7 +78,7 @@ git checkout some-branch-name
 
 git merge some-branch-name
 
-Fast-Forward merge
+Fast-Forward merge - не было произведено изменений в мастер
 
 Merge commit
 
@@ -106,3 +106,15 @@ git push origin add-feature1
 
 git branch -r
 
+git remote show
+git remote show origin
+
+git push --delete origin add-feature1
+
+rebase - не создает merge commit 
+
+git checkout add-feature1
+git rebase master
+
+git checkout master
+git rebase add-feature1
