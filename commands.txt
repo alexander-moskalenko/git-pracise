@@ -94,3 +94,5 @@ git fetch:
 1. скачивает удаленные ветки с репозитория, но не производит актуализацию ваших локальных веток (не делает слияния удаленной ветки с локальной)
 2. слияние может быть fast-forward and recursive
 
+git@github.com:alexander-moskalenko/git-practise.git
+
