@@ -113,8 +113,18 @@ git push --delete origin add-feature1
 
 rebase - не создает merge commit 
 
-git checkout add-feature1
+git checkout add-feature1 - для актуализации ветки
 git rebase master
 
 git checkout master
 git rebase add-feature1
+
+git fetch
+git rebase origin/master
+
+Интерактивный rebase работает на одной ветке
+
+git rebase -i HEAD~3
+
+pick
+reword - меняет название коммита
