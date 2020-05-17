@@ -64,3 +64,13 @@ SSH - secure shell, сетевой протокол, производить уд
 
 ssh-keygen -t rsa -b 4096 -C "alexander.moskalenko@jetruby.com"
 
+git fetch
+
+git add .
+git commit
+
+git push origin master
+git push origin add-feature1
+
+git branch -r
+
