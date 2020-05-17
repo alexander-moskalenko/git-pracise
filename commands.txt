@@ -96,3 +96,13 @@ git fetch:
 
 git@github.com:alexander-moskalenko/git-practise.git
 
+git fetch
+
+git add .
+git commit
+
+git push origin master
+git push origin add-feature1
+
+git branch -r
+
