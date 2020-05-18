@@ -128,3 +128,11 @@ git rebase -i HEAD~3
 
 pick
 reword - меняет название коммита
+squash - объединяет коммиты
+edit - добавляет изменения в существующий коммит
+
+git cherry-pick commit-hash
+git cherry-pick --edit - берет коммит и меняет сообщение коммита
+git cherry-pick --no-commit - добавляет изменения в отслеживаемую зону
+git cherry-pick -x - добавит хеш коммита из которого сделали черрипик
+git cherry-pick --signoff - укажет имя того кто сделал черрипик
